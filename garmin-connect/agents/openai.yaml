@@ -1,0 +1,4 @@
+interface:
+  display_name: "Garmin Connect"
+  short_description: "Automate Garmin Connect gear fixes"
+  default_prompt: "Use $garmin-connect to audit and update Garmin Connect activity gear."
