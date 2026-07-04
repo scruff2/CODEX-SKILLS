@@ -19,10 +19,18 @@ Folder: [`garmin-connect/`](garmin-connect/)
 
 ## Using These Skills
 
-Copy a skill folder into your Codex skills directory, usually:
+Option 1: copy a skill folder into your Codex skills directory, usually:
 
 ```text
 ~/.codex/skills/
 ```
 
 Then start a new Codex session so the skill metadata can be discovered.
+
+Option 2: give your LLM the GitHub URL for the skill folder and ask it to install the skill into your local Codex skills directory.
+
+Example:
+
+```text
+Install the Codex skill from https://github.com/scruff2/CODEX-SKILLS/tree/main/garmin-connect
+```
