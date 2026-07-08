@@ -1,0 +1,7 @@
+interface:
+  display_name: "ANET Rolling Strategy"
+  short_description: "Rolling ANET strategy evaluator"
+  default_prompt: "Use $anet-rolling-strategy to update ANET OHLCV data, rerun the rolling one-year strategy sweep, and summarize whether to keep or change the active rule."
+
+policy:
+  allow_implicit_invocation: true
